@@ -6,7 +6,7 @@ Automates the generation of Health Rules and Dashboards for use with ConfigMyApp
 
 ## Runtime
 
-See each PS1 File for run example, makeall_gen will run all other files sequentially in the instance that everything is to be ran (most likely scenario)
+See each PS1 File for run example, `makeall_gen.ps1` will run all other files sequentially in the instance that everything is to be ran 
 
 ## ConfigMyApp Commands Used In Testing
 ### Get ConfigMyApp 
