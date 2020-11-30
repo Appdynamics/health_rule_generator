@@ -41,5 +41,8 @@ Move generated Dashboard to the custom_dashboards folder in CMA, then:
            --password=*** \<br>
            --upload-custom-dashboard \<br>
 ```
-Note that you can environment variables and/or run-time variables. It's probably best to use environment varibles if you're running from Jenkins or Docker 
+Note that you can environment variables and/or run-time variables. It's probably best to use environment variables if you're running from Jenkins or Docker 
 
+# Running from Jenkins 
+
+Please refer to the `jenkins` folder
