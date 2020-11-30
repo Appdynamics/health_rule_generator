@@ -20,8 +20,8 @@ Read the docs - https://appdynamics.github.io/ConfigMyApp
 ### Upload Health Rules:
 Move generated rules to the health_rules folder in CMA, then:
 ```
-./start.sh --controller-host=tpicap-dev.saas.appdynamics.com \ <br>
-           --use-https \<br> 
+./start.sh --controller-host=tpicap-dev.saas.appdynamics.com \ 
+           --use-https \
            --controller-port=443 \ <br> 
            --application-name=creditdeal-qa \ <br>
            --account= account_name \ <br>
