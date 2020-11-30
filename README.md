@@ -1,4 +1,5 @@
-# health_rule_generator
+# ConfigMyApp Asset Generator 
+
 ## Overview
 
 Automates the generation of Health Rules and Dashboards for use with ConfigMyApp
@@ -43,6 +44,6 @@ Move generated Dashboard to the custom_dashboards folder in CMA, then:
 ```
 Note that you can environment variables and/or run-time variables. It's probably best to use environment variables if you're running from Jenkins or Docker 
 
-# Running from Jenkins 
+## Running from Jenkins 
 
 Please refer to the `jenkins` folder
