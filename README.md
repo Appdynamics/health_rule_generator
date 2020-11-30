@@ -22,25 +22,25 @@ Move generated rules to the health_rules folder in CMA, then:
 ```
 ./start.sh --controller-host=tpicap-dev.saas.appdynamics.com \ 
            --use-https \
-           --controller-port=443 \ <br> 
-           --application-name=creditdeal-qa \ <br>
-           --account= account_name \ <br>
-           --username=username \<br>
-           --password=*** \ <br>
+           --controller-port=443 \ 
+           --application-name=creditdeal-qa \ 
+           --account= account_name \ 
+           --username=username \
+           --password=*** \ 
            --health-rules-only
 ```
 ### Upload Custom Dashboard:
 Move generated Dashboard to the custom_dashboards folder in CMA, then:
 
 ```
-./start.sh --controller-host=tpicap-dev.saas.appdynamics.com \<br>
-           --use-https \ <br> 
-           --controller-port=443 \<br>
-           --application-name=creditdeal-qa \<br>
-           --account=account_name \ <br>
-           --username=username \<br>
-           --password=*** \<br>
-           --upload-custom-dashboard \<br>
+./start.sh --controller-host=tpicap-dev.saas.appdynamics.com \
+           --use-https \ 
+           --controller-port=443 \
+           --application-name=creditdeal-qa \
+           --account=account_name \
+           --username=username \
+           --password=*** \
+           --upload-custom-dashboard 
 ```
 Note that you can environment variables and/or run-time variables. It's probably best to use environment variables if you're running from Jenkins or Docker 
 
