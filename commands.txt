@@ -1,0 +1,10 @@
+./start.sh --controller-host=tpicap-dev.saas.appdynamics.com --use-https --controller-port=443 --application-name=creditdeal-qa --account=tpicap-dev --username=iogbole --password=AppD@123 --health-rules-only
+
+./start.sh --controller-host=tpicap-dev.saas.appdynamics.com --use-https --controller-port=443 --application-name=creditdeal-qa --account=tpicap-dev --username=iogbole --password=AppD@123 --upload-custom-dashboard
+
+
+
+
+./start.sh --controller-host=tpicap-dev.saas.appdynamics.com --use-https --controller-port=443 --application-name=creditdeal-qa --account=tpicap-dev --username=iogbole --password=AppD@123 --health-rules-only
+
+./start.sh --controller-host=tpicap-dev.saas.appdynamics.com --use-https --controller-port=443 --application-name=creditdeal-qa --account=tpicap-dev --username=iogbole --password=AppD@123 --upload-custom-dashboard
