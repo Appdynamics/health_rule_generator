@@ -42,7 +42,7 @@ Move generated Dashboard to the custom_dashboards folder in CMA, then:
            --password=*** \
            --upload-custom-dashboard 
 ```
-Note that you can environment variables and/or run-time variables. It's probably best to use environment variables if you're running from Jenkins or Docker 
+Note that you use can environment variables and/or run-time variables. It's best to use environment variables if you're running ConfigMyApp from Jenkins or Docker 
 
 ## Running from Jenkins 
 
